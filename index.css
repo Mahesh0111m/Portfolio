@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+}
+
+
+.nav{
+ 
+    overflow: hidden;    
+}
+
+.nav a{
+    display: block;
+    float: right;
+    padding: 10px;
+    margin: 5px;
+    font-size: larger;
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+}
+
+.nav a:hover{
+    background-color: rgb(91, 90, 90);
+}
+
+
+
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQogQQ5pkzRAikTQE5Zb_KZ4z23aGdcUnoCUQ&s");
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    background-repeat: no-repeat;
+    overflow: hidden;   
+}
+
+
+.info{
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+
+
+
+.info h2{
+    font-size: 50px;
+}
+
+.info h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.info span{
+    color: rgb(246, 75, 13);
+}
+
+.icons {
+    margin-left: 5%;
+    margin-right: -60px;
+    margin-top: 3%;
+    
+}
+
+.icons a{
+   padding: 10px;
+   font-size: 30px;
+   color: black;
+}
+
+.icons a:hover{
+    color: tomato;
+}
+
+.icons a:visited{
+    color: black;
+}
